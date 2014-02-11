@@ -150,6 +150,19 @@ body {
 }
 
 /*
+* Content
+*/
+
+.content {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 2em;
+}
+
+.push-down {
+  margin-top: 25em;
+}
+
+/*
 * Navbar
 */
 
