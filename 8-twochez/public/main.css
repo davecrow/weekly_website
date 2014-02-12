@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Quicksand:300);
+@import url(http://fonts.googleapis.com/css?family=Quicksand:300+Habibi);
 
 /*
  * Globals
@@ -39,6 +39,11 @@ a:hover {
 
 /* Typography */
 
+html, body {
+  font-family: 'Habibi', Georgia, "Times New Roman", serif;
+  font-size: 1.1em;
+}
+
 h1, h2, h3,
 .h1, .h2, .h3 {
   font-family: 'Quicksand', "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -49,6 +54,14 @@ h1, .h1 {
   line-height: 1.25em;
   text-transform: uppercase;
   letter-spacing: -3px;
+}
+
+p {
+  letter-spacing: 0px;
+}
+
+.remove-bottom-margin {
+  margin-bottom: 0;
 }
 
 
